@@ -6,6 +6,7 @@ cd ~/
 git clone https://github.com/AlexandreRouma/SDRPlusPlus.git
 
 cd SDRPlusPlus
+git pull origin master
 mkdir build
 cd build
 # Disabled SDRPLAY due to an issue with a dependency not found:
